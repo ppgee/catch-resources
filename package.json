@@ -1,0 +1,19 @@
+{
+  "name": "catch-resources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppgee/catch-resources.git"
+  },
+  "author": "ppgee",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.7.0",
+    "request": "^2.88.0"
+  }
+}
