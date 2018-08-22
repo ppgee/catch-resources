@@ -16,12 +16,14 @@
 ## Usage
 
 ```bash
+npm install
 node index.js
 ```
 
 或者
 
 ```bash
+npm install
 npm start
 ```
 
