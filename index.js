@@ -17,7 +17,7 @@ async function main () {
   mkdirsSync(dirPath)
 
   // 进入获取资源的url
-  await page.goto(catchUrl)
+  await page.goto(catchUrl, { waitUntil: 'networkidle2' })
 
   // 从页面中获取资源列表
   const remoteObjectResp = (await page.evaluateHandle(() => {
