@@ -1,6 +1,6 @@
 # catch-resources
 
-这是一个根据chrome headless，获取网页中的资源文件并拉入本地的小工具
+这是一个根据Puppeteer，获取网页中的资源文件并拉入本地的小工具
 
 ## Features
 
